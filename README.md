@@ -22,6 +22,14 @@ Change directory to the companion directory
 
 > cd companion
 
+Create virtual env
+
+>mkvirtualenv --python=python3 data_processor
+
+Install packages
+
+> pip install -r requirements.txt
+
 Run the script
 
 > python run.py
